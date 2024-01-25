@@ -24,7 +24,7 @@ There are two extensions.
            open mslp.ctl
            set lat 20 50
            set lon 120 140
-           set mslpm=ave(mslp,time=1jan2020,time=31jan2020)
+           define mslpm=ave(mslp,time=1jan2020,time=31jan2020)
            """
 ga(script)
 ```
